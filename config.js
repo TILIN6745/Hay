@@ -31,7 +31,7 @@ global.baileys = 'V 6.7.8'
 global.vs = '2.0.0'
 global.languaje = 'Español'
 global.nameqr = '𝙏𝙊𝙉𝙔 𝘽𝙊𝙏'
-global.sessions = 'YukiSession'
+global.sessions = 'MysticSession'
 global.jadi = 'TonyJadiBot'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
