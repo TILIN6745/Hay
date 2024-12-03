@@ -20,8 +20,8 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 const used = process.memoryUsage()
-let yuki = `🌸 \`\`\`Información - Yuki-Bot\`\`\` 🌸\n`
-yuki += `👑꙰᠁❥ *◜Creador◞* ⇢ 𝔇ĕ𝐬†𝓻⊙γ𒆜\n`
+let yuki = `🌸 \`\`\`Información - Melanie Bot\`\`\` 🌸\n`
+yuki += `👑꙰᠁❥ *◜Creador◞* ⇢ AntonyxT\n`
 yuki += `⚜️꙰᠁❥ *◜Prefijo◞* ⇢ [ ${usedPrefix} ]\n`
 yuki += `📚꙰᠁❥ *◜Versión◞* ⇢ ${vs}\n`
 yuki += `🔐꙰᠁❥ *◜Chats Privados◞* ⇢ ${chats.length - groupsIn.length}\n`
@@ -31,7 +31,7 @@ yuki += `📌꙰᠁❥ *◜Grupos◞* ⇢ ${groupsIn.length}\n`
 yuki += `⏱️꙰᠁❥ *◜Actividad◞* ⇢ ${muptime}\n`
 yuki += `🚀꙰᠁❥ *◜Velocidad◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}\n`
 yuki += `🤖꙰᠁❥ *◜Sub-Bots Activos◞* ⇢ ${totalUsers || '0'}`
-await conn.sendFile(m.chat, pp, 'yuki.jpg', yuki, fkontak, null, rcanal)
+await conn.sendFile(m.chat, pp, '', melanie, fkontak, null, rcanal)
 }
 handler.help = ['estado']
 handler.tags = ['info']
