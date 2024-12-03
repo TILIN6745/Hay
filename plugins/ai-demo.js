@@ -14,11 +14,11 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `[ Yuki Suou Bot - Destroy ]`,
+title: `[ Melanie Bot ]`,
 body: ``,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://tinyurl.com/2awg2bch', 
-sourceUrl: 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'}}},
+sourceUrl: 'https://whatsapp.com/channel/0029VayuClfAe5Vl339FDt2J'}}},
 { quoted: m})
     } catch (err) {
         m.reply('error cik:/ ' + err);
