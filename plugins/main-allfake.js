@@ -37,22 +37,22 @@ let user = global.db.data.users[who]
 let pushname = m.pushName || 'Sin nombre'
 
 //creador y otros
-global.creador = 'Wa.me/584120346669'
+global.creador = 'Wa.me/5214461018899'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/584120346669'
-global.namechannel = '♡⃝𝒞𝐻𝒜𝒩𝒩𝐸𝐿 𝒴𝒰𝒦𝐼 𝒮𝒰𝒪𝒰ᚐ҉ᚐ'
-global.namechannel2 = '✫𝚃𝙴𝙰𝙼  乂 𝚂𝚃𝙰𝚁𝙲𝙾𝚁𝙴✫'
-global.namegrupo = '♡⃝𝓨𝓾𝓴𝓲 𝓢𝓾𝓸𝓾 𝓑𝓸𝓽 𝓞𝓯𝓲𝓬𝓲𝓪𝓵ᚐ҉'
-global.namecomu = '✿ 𝒴𝒰𝒦𝐼 𝒮𝒰𝒪𝒰 𝐵𝒪𝒯 ✿'
-global.namecomu2 = '✫𝚃𝙴𝙰𝙼  乂 𝚂𝚃𝙰𝚁𝙲𝙾𝚁𝙴✫'
-global.colab1 = 'Emma-Violets-Versión'
-global.colab2 = 'Niño Piña'
-global.colab3 = 'Legendary'
+global.asistencia = 'Wa.me/5214461018899'
+global.namechannel = '𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙ᚐ'
+global.namechannel2 = '𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙'
+global.namegrupo = '𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙'
+global.namecomu = '𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙'
+global.namecomu2 = '𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙'
+global.colab1 = 'AntonyxT'
+global.colab2 = 'AntonyxT'
+global.colab3 = 'AntonyxT'
 
 //Ids channel
 global.idchannel = '120363343811229130@newsletter'
 global.canalIdM = ["120363322713003916@newsletter", "120363343811229130@newsletter", "120363314192605628@newsletter"]
-global.canalNombreM = ["♡⃝𝒞𝐻𝒜𝒩𝒩𝐸𝐿 𝒴𝒰𝒦𝐼 𝒮𝒰𝒪𝒰ᚐ҉ᚐ", "✧┊┋◟✿𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭✿◞┊┋✧", "✫𝚃𝙴𝙰𝙼  乂 𝚂𝚃𝙰𝚁𝙲𝙾𝚁𝙴✫"]
+global.canalNombreM = ["𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙ᚐ", "✧┊┋◟𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙◞┊┋✧", "𝕸𝖊𝖑𝖆𝖓𝖎𝖊 𝕭𝖔𝖙"]
 global.channelRD = await getRandomChannel()
 
 //Reacciones De Comandos.!
@@ -74,12 +74,12 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'  
-let canal2 = 'https://whatsapp.com/channel/0029VavzewJLikg78gILRn1o'
-var git = 'https://github.com/The-King-Destroy' 
-var youtube = 'https://youtube.com/@user-the-king-destroy' 
-var github = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot' 
-let correo = 'thekingdestroy507@gmail.com'
+var canal = 'https://whatsapp.com/channel/0029VayuClfAe5Vl339FDt2J'  
+let canal2 = 'https://whatsapp.com/channel/0029VayuClfAe5Vl339FDt2J'
+var git = '' 
+var youtube = '' 
+var github = '' 
+let correo = ''
 
 global.redes = [canal, canal2, git, youtube, github, correo].getRandom()
 
