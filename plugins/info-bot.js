@@ -6,7 +6,7 @@ handler.all = async function(m) {
 const chat = global.db.data.chats[m.chat];
 if (chat.isBaneed) return
 if (/^bot$/i.test(m.text)) {
-conn.reply(m.chat, `🌹 ¡Hola! Soy 𝒴𝓊𝓀𝒾_𝒮𝓊𝑜𝓊-𝐵𝑜𝓉, en que puedo ayudarte hoy?\n\n✰ Usa *!menu* para ver mis comandos.`, m, rcanal, )
+conn.reply(m.chat, `🌹 ¡Hola! Soy 𝐌𝐞𝐥𝐚𝐧𝐢𝐞 𝐁𝐨𝐭, en que puedo ayudarte hoy?\n\n✰ Usa *!menu* para ver mis comandos.`, m, rcanal, )
 }
 /*if (/^niño|piña|Niño Piña$/i.test(m.text)) {
 conn.reply(m.chat, `*Niño Piña 🍍 es la perrita de mi creador* 🥵🥵`, m, rcanal, )
@@ -29,8 +29,8 @@ conn.reply(m.chat, `*Escucha maldita sabandija ni se te ocurra enviar ese tipo d
 if (/^canal$/i.test(m.text)) {
 conn.reply(m.chat, `*🌹 Hola Nos ayudas a cumplir nuestra meta de 500 seguidores 🍒*
 
- https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T
- \n> *Gracias por Preferirnos 𝒴𝓊𝓀𝒾_𝒮𝓊𝑜𝓊-𝐵𝑜𝓉 🌹* `, m, rcanal, )
+https://whatsapp.com/channel/0029VayuClfAe5Vl339FDt2J
+ \n> *Gracias por Preferirnos 𝐌𝐞𝐥𝐚𝐧𝐢𝐞 𝐁𝐨𝐭 🌹* `, m, rcanal, )
 }
 /*if (/^Conoces a Legendary|Legendary|Diomar/i.test(m.text)) { 
 conn.reply(m.chat, `*Si Lo conozco, Es Una Zorra caliente 🥵❤️‍🔥*`, m, rcanal, )
@@ -54,7 +54,7 @@ conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
 }
 if (/^Como puedo tener bot|Quiero un bot/i.test(m.text)) {
 conn.reply(m.chat, `*¡Contacta Al Creador!*
-> *wa.me/584120346669*`, m, rcanal, )
+> *wa.me/5214461018899*`, m, rcanal, )
 }
 if (/^Bot en decadencia|En decadencia|Decadencia/i.test(m.text)) {
 conn.reply(m.chat, `*Calla 🍆🥵*`, m, rcanal, )
