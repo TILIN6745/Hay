@@ -30,12 +30,12 @@ let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.a
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://files.catbox.moe/0otij6.png', 'https://files.catbox.moe/0otij6.png', 'https://files.catbox.moe/0otij6.png']
 
-let menu = `𔓕꯭  ꯭ ꯭ 𓏲꯭֟፝੭ 𝔐𝔢𝔩𝔞𝔫𝔦𝔢 𝔅𝔬𝔱 𓏲꯭֟፝੭ ꯭  ꯭ ꯭𔓕
+let menu = `𔓕꯭  ꯭ ꯭ 𓏲꯭֟፝੭ ℋ𝒜𝒴ℰ 𓏲꯭֟፝੭ ꯭  ꯭ ꯭𔓕
 
 🌸 ¡𝓗𝓸𝓵𝓪! 𝓒ó𝓶𝓸 𝓔𝓼𝓽á𝓼 𝓮𝓵 𝓓í𝓪 𝓭𝓮 𝓗𝓸𝔂 *${taguser}* 𝓢𝓸𝔂 *𝔐𝔢𝔩𝔞𝔫𝔦𝔢 𝔅𝔬𝔱*, ${saludo}. 
 
 ┏━━⪩「 ♡⃝𝕴𝖓𝖋𝖔 𝖉𝖊 𝖑𝖆 𝕭𝖔𝖙ᚐ҉ᚐ 」⪨
-┃❥ ⧼👑⧽ *Creador:* AntonyxT
+┃❥ ⧼👑⧽ *Creador:* TILIN
 ┃❥ ⧼🔱⧽ *Modo:* Publico
 ┃❥ ⧼🌠⧽ *Baileys:* Multi Device
 ┃❥ ⧼🤖⧽ *Bot:* ${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}
@@ -554,7 +554,7 @@ let menu = `𔓕꯭  ꯭ ꯭ 𓏲꯭֟፝੭ 𝔐𝔢𝔩𝔞𝔫𝔦�
 ┃🜲 >
 ┃🜲 =>
 ┗━━━━━━━━━━━━━━━━━⪨
-> © 𝒫𝑜𝓌𝑒𝓇𝑒𝒹 𝐵𝓎 𝕬𝖓𝖙𝖔𝖓𝖞𝖝𝕿`.trim()
+> © 𝒫𝑜𝓌𝑒𝓇𝑒𝒹 𝐵𝓎 𝒯ℐℒℐ𝒩`.trim()
 
 await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '♡⃝𝒴𝓊𝓀𝒾_𝒮𝓊𝑜𝓊-𝐵𝑜𝓉ᚐ҉ᚐ', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
